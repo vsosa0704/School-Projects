@@ -1,0 +1,131 @@
+/*General styles*/ 
+
+h1 { 
+	text-align:center; 
+	color:#fff; 
+	padding-top:25px;
+	}
+
+body {
+	font-family:"Times Roman";
+	font-size:1.1rem;
+	}
+
+header { 
+	width:100%; 
+	height:100px; 
+	background-image:url('../IMG/multicolor.jpg'); 
+	}
+
+nav { 
+	width:100%; 
+	height:70px; 
+	}
+	
+/* Remove the bullets, margins and padding from the list*/
+nav ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:#333;
+	}
+	
+nav li {
+	float:left;
+	}
+	
+/* Style the a within the li and set a background color */
+
+nav li a {
+	display:block;
+	padding:8px;
+	color:#fff;
+	text-decoration:none;
+	text-transform:uppercase;
+	}
+
+/* "active" class on current link tells the user he/or she is on */
+
+.active {
+	background-color:#1b823e;
+	}
+
+	
+#image1, #image2 {
+	height:400px;
+	width:40%;
+	}
+
+table, th, td {
+	border:3px solid #1b823e;
+	border-collapse:collapse;
+	padding:15px;
+	}
+
+caption {
+	text-align:center; 
+	font-weight:bold;
+	}
+	
+footer { 
+	width:100%; 
+	height:30px; 
+	background-color:#333; 
+	bottom:0px;
+	color:#fff;	
+	}
+
+label {
+	font-weight:bold;
+	}
+
+legend {
+	font-weight:bold;
+	}
+	
+p {
+	text-align:justify;
+	}
+/*form controls styles */
+input[type], select {
+	height:30px;
+	font-size:1.15rem;
+	border:2px solid #4caf50;
+	}
+	
+textarea {
+	font-size:1.15rem;
+	border:2px solid #4caf50;
+	}
+	
+input[type=reset], input[type=submit] {
+	width:10%;
+	height:40px;
+	font-size:1.15rem;
+	font-weight:bold;
+	color:#fff;
+	border:none;
+	border-radius:20px;
+	}
+	
+input[type=reset] {
+	background-color:#f00;
+	}
+	
+input[type=submit] {
+	background-color:#008000;
+	}
+	
+.formatLabel {
+	display:inline-block;
+	width:140px;
+	}
+	
+fieldset {
+	border:2px dashed #008000;
+	}
+	
+	
+
+	
