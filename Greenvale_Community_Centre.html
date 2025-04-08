@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Victoria Sosa"> 
+		<title> Greenvale Park Community Center Events </title>
+		<link rel="stylesheet" href="CSS/gvale.css"> 
+	</head>
+	
+	<body>
+			<a id="Top"></a>
+			<header>
+				<h1> Welcome Greenvale Park Community Center </h1>
+			</header>
+		
+		<div id="H-Bar">
+			<nav>
+				<ul> 
+					<li> <a href="index.html" class="active"> Home </a></li>
+					<li> <a href="programs.html"> Events </a></li>
+					<li> <a href="contact.html"> Contact </a></li>
+				</ul>
+			</nav>
+		</div>
+			
+			<main>
+				<section> 
+				 	<h2> Upcoming Events </h2> 
+					
+					<table> 
+					<caption> Scheduled Events - April to June 2025 </caption>
+						<tr>
+							<th> Event Name </th>
+							<th> Date </th>
+							<th> Location </th>
+							<th> Description </th>
+						</tr>
+					
+						<tr>
+							<td> Health &amp; Wellness Fair </td>
+							<td> April 12, 2025 </td>
+							<td> Community Hall </td>
+							<td> Free screenings, fitness demos, &amp; wellness workshops </td>
+						</tr>
+					
+						<tr>
+							<td> Mother's Day Art &amp; Craft Workshop </td>
+							<td> May 4, 2025 </td>
+							<td> Room B </td>
+							<td> Hands-on arts &amp; craft sessions where children can create personalized gifts for their mothers. </td>
+						</tr>
+					
+						<tr>
+							<td> Senior Citizens &amp; Technology </td>
+							<td> May 14, 2025 </td>
+							<td> Room C </td>
+							<td> An introduction to smartphones, emails, and social media for older adults.  </td>
+						</tr>
+						
+						<tr>
+							<td> Community Clean-Up Day </td>
+							<td> June 8, 2025 </td>
+							<td> Community-wide </td>
+							<td> Walk around the neighbourhood to clean and beautify the area under the #WeCleanTT campaign. Gloves and tools will be provided. </td>
+						</tr>
+					</table> <br>
+					
+					<article> 
+						<h2> Community Clean-up Day </h2>
+							<p> On June 8th, 2025 join the community to walk around the neighbourhood and help clean and beautify the playgrounds, parks, and the area in front on the retention pond. Tools will be provided such as gloves, shovels, garbage bags etc., to assist with the initiative. We will be meeting at the community center for 9:00am. This initiative follows the #WeCleanTT drive, where the Ministry of Rural Development and Local Governement and CEPEP conducts a clean-up drive in prepardness for the rainy season. As a community, we are responsible to take care of our environs and ensure that our drainage systems are clear of debris. Learn more about the Ministry of Rural Development and Local Government rainy season preparedness campaign at 
+							<a href="https://www.guardian.co.tt/news/ministry-launches-cleanup-campaign-6.2.1481864.b516a32d1b" target="_blank"> #WeCleanTT Initiative </a>
+							</p>
+					</article>
+				</section>
+				
+				<section>
+					
+					<h2> Why Join Us&quest; </h2>
+						<ul>
+							<li> Free access to resources </li>
+							<li> Inclusive community programs </li>
+							<li> Events for all age groups in the community </li>
+						</ul>
+				</section>
+										
+				<section>
+					<h2> Gallery </h2>
+					<p> The following pictures below, reflects the ongoing work throughout various communities in Trinidad and Tobago, beautifying the landscape and preparing for the upcoming rainy season by clearing the drains surrounding the community.
+					</p>
+						<img src="IMG/TPiarco_Regional_Corp.jpg" alt="An image of a group of people celebrating after cleaning another community project" id="image1">
+						<img src="IMG/Neigbourhood_Walkaround_in_POS_South.jpg" alt="An image of a group of people talking before cleaning another community project" id="image2"> 		
+				</section>
+				
+				<section> 
+					<h2> Register Your Interest </h2> 
+						<p> You are allowed to choose more than one item. </p>
+					
+					<form method="post" action="Greenvale_Community_Centre.html">
+					
+						<fieldset>
+							<legend> Resident Informatiom </legend>
+							<label class="formatLabel"> Title </label>
+								<select id="title" name="title">
+									<option value="" selected="selected"> Select a title </option>
+									<option value="Mrs."> Mrs. </option>
+									<option value="Mr."> Mr. </option>
+									<option value="Ms."> Ms. </option>
+								</select> <br> <br>	
+								
+							<label class="formatLabel"> First Name&colon; </label>
+								<input type="text" id="fname" name="fname" size="30"> <br> <br>
+								
+							<label class="formatLabel"> Date of Birth&colon; </label>
+								<input type="date" id="dob" name="dob"> <br> <br>
+						
+							<label class="formatLabel"> Last Name&colon; </label>
+								<input type="text" id="lname" name="lname" size="30"> <br> <br>
+						
+							<label class="formatLabel"> Gender&colon; </label>
+								Male <input type="radio" id="m_gender" name="gender" value="Male">
+								Female <input type="radio" id="f_gender" name="gender" value="Female"> <br> <br>
+						
+							<label class="formatLabel"> Address&colon; </label>
+								<textarea id="address" name="address" rows="5" cols="50"></textarea> <br> <br>
+							
+							<label class="formatLabel"> Email&colon; </label>
+								<input type="email" id="e_add" name="e_add" size="30"> <br> <br>
+							
+							
+							<label class="formatLabel"> Select an Event&colon; </label>
+								Health &amp; Wellness Fair <input type="checkbox" id="h_event" name="event" value="Health and Wellness Fair"> &nbsp; &nbsp; 
+								Mother's Day Art &amp; Craft Workshop <input type="checkbox" id="m_event" name="event" value="Mother's Day Craft Workshop"> &nbsp; &nbsp;
+								Senior Citizens &amp; Technology <input type="checkbox" id="t_event" name="event" value="Technology for Seniors"> &nbsp; &nbsp; 
+								Community Clean-up Day <input type="checkbox" id="c_event" name="event" value="Community Clean-up Day"> <br> <br>
+					
+							<span id="buttons">
+								<input type="submit" value="JOIN NOW"> 
+								<input type="reset" value="RESET">
+							</span>	<br> <br>	
+		
+						</fieldset>
+					</form>
+				</section>			
+						
+				<a href="#Top"> Back to top </a>
+				
+			</main>
+
+			<footer>
+				<p> &copy; Web Design 2025 - Victoria Sosa - Greenvale Park Community Centre. All rights reserved. Contact us at gvaleinfo@gmail.com </p> 
+			</footer>	
+		
+	</body>
+	
+</html>
